@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Playfair+Display:wght@700&family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Squada+One&display=swap');
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:black !important;
+}
+
+a{
+  color:black !important
+}
+h2{
+  font-family: "Roboto Mono";
+}
+
+.App {
+   height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+    
+
+  /* background: url("https://i.pinimg.com/originals/ec/a8/9a/eca89af3c15d4e1fe509baac34517f25.jpg") no-repeat center center fixed; 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+.App-home{
+  background: url("https://i.pinimg.com/originals/ec/a8/9a/eca89af3c15d4e1fe509baac34517f25.jpg") no-repeat center center fixed; 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.App-content {
+  height: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (min-width: 650px ) {
+  .App {
+      background-position: center center;
+  }
+
+  .App-content {
+      align-items: flex-end;
+      justify-content: center;
+  }
+}
+.bgcolor{
+  background-color: #ffaaa5 !important;
+}
+
+.brand-logo,h2{
+  margin-left: 10px;
+  font-family: 'Berkshire Swash', cursive;
+
+}
+.card{
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 1%;
+}
+.mycard{
+  margin-top: 80px;
+
+  border:none !important;
+  
+}
+.auth-card{
+  border:none !important;
+  
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  
+}
+.input-field input[type=text]:focus {
+  
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+  padding:10px;
+}
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin:26px auto;
+
+}
+#toast-container{
+  top:100px !important;
+  right:100px !important;
+  left: auto !important;
+}
+
+.line hr {
+  height: 1px;
+  border: 0;
+  background: black;
+}
